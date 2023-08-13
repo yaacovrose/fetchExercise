@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="formFetch.js" defer></script>
+    <link rel="stylesheet" href="formFetch.css">
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="event.preventDefault(); addUser()">
+            <label>first Name:
+                <input type="text" id="first">
+            </label>
+            <label>Last Name:
+                <input type="text" id="last">
+            </label>
+            <label>Email:
+                <input type="text" id="email">
+            </label>
+            <label>Age:
+                <input type="number" id="age">
+            </label>
+            <button type="submit" id="send">send</button>
+        </form>
+    </div>
+</body>
+</html>

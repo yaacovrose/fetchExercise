@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+    background: yellowgreen;
+    height: auto;
+}
+
+.show{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
